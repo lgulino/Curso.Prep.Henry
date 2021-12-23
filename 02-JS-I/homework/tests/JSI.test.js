@@ -238,8 +238,8 @@ describe('combinarNombres(firstName, lastName)', function() {
   });
 });
 
-describe('obtenerSaludo(name)', function() {
-  it('Deberia devolver el string \'Hola {name}!\'', function() {
+describe('obtenerSaludo(nombre)', function() {
+  it('Deberia devolver el string \'Hola {nombre}!\'', function() {
     expect(obtenerSaludo('Martin')).toBe('Hola Martin!');
     expect(obtenerSaludo('Antonio')).toBe('Hola Antonio!');
   });
